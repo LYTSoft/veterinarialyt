@@ -386,95 +386,74 @@ main.min-main {
 
 /* HECHO POR LAURA */
 
-.box {
-  background-color: #fff;
-  border: 1px solid #ddd;
 
+.texto2 .h2 {
+    color: #193A6A;
+    font-size: 3em;
+    margin-top: 20;
+    text-align: center;
+}
+
+.texto2 .p2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.box {
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+ 
 }
 
 
 
 label {
-    font-weight: 600;/* grosor de la letra  */
-    font-size: 15px;/* tamano de la letra */
-}
-
-.favor{
-    text-align: center;/* centrar el texto */
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 3rem;
-}
-
-.form-1{
-    font-weight: 600;
-    font-size: 20px;
-    width: 500px;/* ancho de los inputs */
-    margin-left: 100px;
-}
-
-.form-2 {
-    font-weight: 600;
-    font-size: 20px;
-    width: 500px;
-    margin-left: 550px;/* para mover a la izquierda */
-    margin-top: -510px;/* para mover arriba */
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 
 .form-input {
-    border-color: #f9f9f9;
-    margin-top: 24px; /* cambipo */
-    display: flex;/* para que sea flexible */
-    width: 65%;/* el ancho que quiero que tenga,*/
-    padding: 6px;/* el tamano de los input */
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
-
-textarea {
-    margin-top: 20px;  /* espacio de arriba */
-    width: 80%; /*   tamaño del cuadro*/
-    resize: none;/* no darle la opcion al usuario de que lo haga mas grande el cuadro  */
-    min-height: 130px; /* Espacio minimo del cuadro*/
+select.form-input {
+  background-size: 18px 18px;
+  padding-right: 40px;
 }
 
 .mss {
-  height: 50px;
+  display: block;
+  width: 100%;
   padding: 10px;
-  font-size: 1rem;
+  margin-bottom: 15px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  width: 80%;
-  margin-left: 100px;
+  min-height: 150px;
 }
-
 
 .ancho {
-    padding: 10px;/* cantidad de espacio del elmento  */
-    width: 100px; /* el ancho del boton */
-    border-radius: 5px;/* para redondear un poco el boton */
-    border: none;/* para quitarle el bordde */
-    margin-top: 20px;
-    margin-left: 20px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #5cb85c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.link {
-    margin-top: 3px;/* margen superior */
-    text-align: center;/* texto en el medio */
-}
 
-/* button {
-    display: block;
-    background-color: #193A6A;
-    color:#fff;
-}
-
-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    background-color: #1F57A9;
-    cursor: pointer; 
-} */
 
 a {
     color: #193A6A; /* color del link */
@@ -1148,3 +1127,4 @@ h3{
         margin-left: 0; /* Ajuste del margen para pantallas pequeñas */
     }
 }
+
