@@ -48,7 +48,7 @@
 
 .input label, .inicio, a{
     /* color: #193A6A; */
-    color: rgb(81, 79, 79);
+    color:#1D1D1D;
     /* color de letra para el usuario la contraseña y el iniciaio de seccion azul */
     text-decoration: none; /* Quitarle el enlace (la rayita que sale debajo) */
     
@@ -62,13 +62,12 @@
 }
 
 .input input{
-    width: 130%;  /* Ancho de los cuadritos */
+    width: 129%;  /* Ancho de los cuadritos */
     padding: 10px 16px; /* espacio de los cuadros y de lo que esta dentro */
-    /* border-color: white;  */
-     /* bordes color blanco */
-    /* border-radius: 5px;  */
-     /* bordes redondos en las esquinas */
     margin-top: 5px; /* Espacio de arriba entre los cuadros */
+    height: 3.120rem;
+    border-radius: 0.5rem;
+    border: 1px solid #1D1D1D;
 
 }
 
@@ -120,5 +119,3 @@
 
     
 }
-
-

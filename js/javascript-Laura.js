@@ -10,8 +10,8 @@ if(user=="admin" && pass=="1212"){
     window.location="a_administrador.html";
     // alert("Usuario y contraseña introducido correctamnete")
 } else {
-    if(user=="laura" && pass=="1212"){
-        window.location="inicio.html";
+    if(user=="maria" && pass=="1212"){
+        window.location="u_servicios.html";
         // alert("Usuario y contraseña introducido correctamnete")
     } else {
         alert("Ingresar tus datos correctos")

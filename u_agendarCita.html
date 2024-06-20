@@ -121,59 +121,74 @@
 
     <div class="box">
         <main>
+             <div class="favor">
+             
+                <div class="texto2">
+                  <h1 class="h2">¡Por favor de llenar!</h1>
+                  <p class="p2">¡Completa este formulario antes de tu cita para el mejor cuidado de tu mascota! </p>
+              </div>
             
             <form class="formulario">
                 <div class="form-1">
-                    <label for="nombre">Nombre :</label><br>
-                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="form-input" required><br>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" placeholder="Nombre" name="nombre" class="form-input" required><br>
 
-                    <label for="email">Correo electrónico :</label><br>
+                    <label for="email">Correo electrónico:</label><br>
                     <input type="email" id="email" name="email" placeholder="Correo electrónico" class="form-input" required><br>
 
-                    <label for="fecha">Fecha :</label><br>
+                    <label for="fecha">Fecha:</label><br>
                     <input type="date" id="fecha" name="fecha" class="form-input" required><br>
 
-                        <legend>Selecciona los servicios:</legend>
-                        <label>
-                            <input type="checkbox" name="servicios" value="vacunas"> Vacunas básicas y refuerzos
-                        </label><br>
-                        <label>
-                            <input type="checkbox" name="servicios" value="banos"> Baños
-                        </label><br>
-                        <label>
-                            <input type="checkbox" name="servicios" value="exámenesLaboratorio"> Exámenes de laboratorio
-                        </label><br>
-                        <label>
-                            <input type="checkbox" name="servicios" value="lavadoDental"> Lavado Dental
-                        </label><br>
-                        <label>
-                            <input type="checkbox" name="servicios" value="cortePelo"> Peluquería y Corte de uñas
-                        </label><br>
-                        <label>
-                            <input type="checkbox" name="servicios" value="medicamentosBásicos"> Medicamentos básicos
-                        </label><br>
-                        <label>
-                            <input type="checkbox" name="servicios" value="tratamientosParásitos"> Tratamientos contra parásitos
-                        </label><br>
+                    <label for="servicio">Servicios:</label><br>
+                    <select id="servicio" name="servicio" class="form-input" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="gato">Higiene</option>
+                        <option value="ave">Exámenes de laboratorio</option>
+                        <option value="roedor">Revisiones físicas</option>
+                        <option value="roedor">Consultas</option>
+                         <option value="roedor">Vacunas básicas y refuerzos</option>
+                          <option value="roedor">Tratamientos contra parásitos</option>
+
+                        
+                    </select><br>
+
+                
+
+
                 </div>
 
                 <div class="form-2">
-                    <label for="apellido">Apellido :</label><br>
-                    <input type="text" id="apellido" name="apellido" placeholder="Apellido" class="form-input" required><br>
 
-                    <label for="tel">Teléfono :</label><br>
-                    <input type="tel" id="tel" name="tel" placeholder="Teléfono" class="form-input" required><br>
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" id="apellido" placeholder="apellido" name="apellido" class="form-input" required><br>
 
-                    <label for="turno">Elige tu turno:</label><br>
-                    <select id="turno" name="turno" class="form-input" required>
+                    <label for="telefono">Teléfono:</label><br>
+                    <input type="number" id="telefono" placeholder="telefono" name="telefono" class="form-input" required><br>
+                    
+                    <label for="fecha">Desde:</label><br>
+                    <input type="date" id="fecha" name="fecha" class="form-input" required><br>
+                    
+                    <label for="fecha">Hasta:</label><br>
+                    <input type="date" id="fecha" name="fecha" class="form-input" required><br>
+
+                     <label for="servicio">Mascota:</label><br>
+                    <select id="servicio" name="servicio" class="form-input" required>
                         <option value="">Seleccione una opción</option>
-                        <option value="mañana">Mañana</option>
-                        <option value="tarde">Tarde</option>
+                        <option value="gato">Gato</option>
+                        <option value="ave">Ave</option>
+                        <option value="roedor">Roedor</option>
+                        <option value="perro">Perro</option>
+                        <option value="perro">Otros</option>
+
                     </select><br>
 
-                    <label for="motivo">Motivo de la cita :</label><br>
-                    <textarea id="motivo" class="mensaje" placeholder="Motivo de la cita" name="motivo"></textarea><br>
+                </div>
+                <div>
+                     <textarea class="mss" placeholder="Si hay alguna informacion relevante háznoslo saber aqui!!" name="mensaje"></textarea><br>
+                </div>
+               
 
+                <div class="boton">
                     <button type="submit" class="ancho">Enviar</button>
                 </div>
             </form>
