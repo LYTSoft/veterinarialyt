@@ -34,12 +34,50 @@
         </div>
     </div>
 </header>
-<main>
-    
-    
-</main>
+<body>
+     <form class="formulario">
+         <div class="card-header">
+            Datos de la mascota
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+            
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="telefono">Descripción</label>
+                    <input type="text" id="descrip" name="descrip" required>
+                </div>
 
+                 <div class="form-group">
+                    <label for="telefono">Edad</label>
+                    <input type="number" id="Edad" name="Edad" required>
+                </div>
 
+                 <div class="form-group">
+                    <label for="telefono">Kg</label>
+                    <input type="number" id="kg" name="kg" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="sexo">Sexo</label>
+                    <select id="sexo" name="sexo" required>
+                        <option value="">Selecciona</option>
+                        <option value="masculino">Macho</option>
+                        <option value="femenino">Hembra</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="txtImagen" class="form-label">Imagen:</label>
+                    <input type="file"  class="form-control" name="txtImagen" id="txtImagen" aria-describedby="helpId" placeholder="Seleccione la imagen">
+                </div>
+            </div>
+            
+        </form>
 </body>
 </html>
 
