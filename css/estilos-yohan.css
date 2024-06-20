@@ -809,6 +809,107 @@ tbody tr{
 
 }
 
+
+
+
+/* u_registroMascotas.html y  u_registrousuario.html  Hecho por tiara*/
+
+
+
+
+
+.container {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+}
+.medioRegistro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    background-color: #19396a15;
+    /* background-color: #0a6bfd67; */
+}
+
+.medio {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.medio  img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.medio  h1 {
+    font-size: 25px;
+    color: #003366;
+    margin: 0;
+}
+
+.formulario .form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario .form-group {
+    margin-bottom: 15px;
+    flex: 1;
+    padding: 0 10px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.formulario input, .formulario select, .formulario button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.formulario input[type="checkbox"] {
+    width: auto;
+    margin-top: 0;
+}
+
+.formulario button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: #0055cc;
+}
+
+.formulario .form-group p {
+    margin: 0;
+}
+
+.formulario .form-group a {
+    color: #0055cc;
+    text-decoration: none;
+}
+
+.formulario .form-group a:hover {
+    text-decoration: underline;
+}
+
+
 /* Estilos de listado de mascotas y usuarios ------------------------------------------------------------------*/
 
 
