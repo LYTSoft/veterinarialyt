@@ -39,6 +39,10 @@ function irAPerfil() {
     window.location.href = "u.perfil.html";
 }
 
+function agendarCitaAdomicilio () {
+    window.location.href = "u.servicioAdomicialio.html"
+}
+
 // CODIGO DE EL HEADER TERMINADO
 
 
@@ -99,6 +103,6 @@ cerrarSesionBtn.addEventListener('click', function() {
 
     if (confirmacion) {
         alert('Has cerrado sesión correctamente.');
-        window.location.href = 'index.html'; // Redirigir a la página de inicio de sesión
+        window.location.href = "index.html"; // Redirigir a la página de inicio de sesión
     }
 });

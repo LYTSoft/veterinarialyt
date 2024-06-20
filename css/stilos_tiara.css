@@ -610,58 +610,6 @@ li{
   
 }
 
-/* u_info_general.html */
-
-.info-section {
-    background-color: #f8f8f8;
-    padding: 60px 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 60px 20px;
-}
-
-.section {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.section h2 {
-    font-size: 28px;
-    color: #333;
-    margin-top: 50px;
-}
-
-.raya {
-    width: 120px;
-    height: 3px;
-    background-color: #ED9B51;
-    margin: 0 auto;
-    margin-top: 15px;
-}
-
-.info-content {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px;
-}
-
-.info-content p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #555;
-    text-align: justify;
-}
-
-
-
-
-
-
 
 /* u_servicios.html */
 
@@ -789,6 +737,34 @@ li{
 
 .lista li a:hover {
   text-decoration: underline;
+}
+
+
+.botones-de-cita button {
+    padding: 5px 20px; 
+    margin: 0 10px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border: 2px solid #2C7CBE; 
+    background-color:  #2C7CBE;
+    color: #fff; 
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.botones-de-cita button:hover {
+    background-color: #246997; 
+}
+
+    
+.botones-de-cita .cita-adomicilio {
+    border-color: #2C7CBE;
+    background-color: #2C7CBE;
+}
+
+.botones-de-cita .cita-adomicilio:hover {
+    background-color:#246997;
 }
 
 
