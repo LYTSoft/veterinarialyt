@@ -155,7 +155,7 @@ body {
     align-items: center;
     border-radius: 50%;
     cursor: pointer;
-    background-color:  #193A6A;
+    background-color: var(--color-boton);
     right:15px;
     top:15px;
     z-index: 100;
@@ -651,140 +651,93 @@ li{
 
 /* u_registroMascotas.html y  u_registrousuario.html  */
 
-.styles-header {
-    display: flex;
-    font-size: 15px;
-    font-weight: 600;
-}
-
-.styles-header, img {
-    display: flex;
-    width: 250px;
-    height: auto; 
-}
-
-.text{
-  display: flex;
-  background-color: #193A6A;
-  color: #fff;
-  width:100%;
-  text-align: center;
-  font-size: 26px;
-  padding: 7px;
-
-}
 
 
-.encabezado {
-   color: #193A6A;
-   font-size: 26px;
-   font-weight: 700;
-   padding-bottom: 9px;
-   border-bottom: 2px solid #ED9B51;
-   margin-left: 8px;
-}
-   
 
-.box {
-    border: 1px solid #E6E6E6;
-    padding: 30px;
-    margin: 20px  auto;
+
+.container {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 5px;
-    width: 60%;
-    height: 480px;
-}
-
-label {
-    color: #193A6A;
-    font-weight: 600;
-    font-size: 15px;
-}
-
-.span {
-    color: black;
-    font-weight: 500;
-}
-
-.form-1{
-    margin-left: 5px ;
-    margin-top: 15px;
-    width: 45%;
-}
-
-.form-2 {
-    margin-left: 400px;
-    margin-top: -274px;
-    width: 45%;
-}
-
-
-.form-input_pe {
-    display: flex;
-    width: 50%;
-    padding: 8px;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.seleccion {
-    display: flex;
-    margin-left: 200px; 
-}
-
-
-.form-input, [type*="radio"] {
-    display: flex;
+    border-radius: 8px;
+    max-width: 600px;
     width: 100%;
-    padding: 8px;
-    font-size: 16px;
-    font-weight: bold;
 }
 
-.boton {
-    margin-top: 80px;
-    margin-left: 270px;
-
-}
-
-.registrate-1 {
-    margin-top: 9px;
-    margin-left: 220px;
-}
-
-.ancho {
-    padding: 7px;
-    width: 250px; 
-    border-radius: 20px;
-    border: none;
-    font-size: 15px;
-}
-
-.link {
-    margin-top: 3px;
+header {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-button {
-    background-color: #193A6A;
-    color:#fff;
-    transition: all 0.3s ease;
+header img {
+    max-width: 200px;
+    margin-bottom: 10px;
 }
 
-button:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);/* sombra al boton de continuar */
-    background-color: #1F57A9;/* color de fondo cuando lo tocan */
+header h1 {
+    font-size: 25px;
+    color: #003366;
+    margin: 0;
 }
 
-.a-1 {
-    color: #193A6A; /* color del link */
+.formulario .form-row {
+    display: flex;
+    justify-content: space-between;
 }
 
-.a-2{
-    color: #fff; /* color de la letra  */
-    text-decoration: none/* para quitarle la rayita  */
+.formulario .form-group {
+    margin-bottom: 15px;
+    flex: 1;
+    padding: 0 10px;
 }
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.formulario input, .formulario select, .formulario button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.formulario input[type="checkbox"] {
+    width: auto;
+    margin-top: 0;
+}
+
+.formulario button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: #0055cc;
+}
+
+.formulario .form-group p {
+    margin: 0;
+}
+
+.formulario .form-group a {
+    color: #0055cc;
+    text-decoration: none;
+}
+
+.formulario .form-group a:hover {
+    text-decoration: underline;
+}
+
+
 
 
 /* u_servicios.html */
