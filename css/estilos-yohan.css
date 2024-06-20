@@ -790,17 +790,17 @@ tbody tr{
 }
 /*  */
 .roja{
-    border-left: solid 2px #302e2e;
+    /* border-left: solid 2px #302e2e; */
     /* padding-left: 6px; */
    color:#FF0000 ;
    font-weight: 900;
 }
 
-.verde:hover{
+/* .verde:hover{
     color: #4AD818;
     border-bottom: solid 2px #4AD818;
     
-}
+} */
 
 .roja:hover{
     color:#FF0000 ;
