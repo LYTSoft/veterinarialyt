@@ -114,8 +114,42 @@
 
 @media screen and (max-width: 600px) {
     .contenedor {
-        width: 10%;
+        width: 5%;
     }
+    
+    .logo{
+    margin-left: 10%;
+    width: 300px;
+  }
+
+  
+.input {
+    font-size: 15px; /* Tamano de letra */
+    font-weight: bold;  /* letra en negrita */
+    margin: 10px 16px; /* Espacio arriba, abajo y izquierda de las letras  */
+}
+
+.input input{
+    width: 110%;  /* Ancho de los cuadritos */
+   
+}
+
+.iniciarSeccion{
+
+     width: 100%;
+     padding: 10px 100px; /* espacio de los cuadros y de lo que esta dentro */
+     border-radius: 10px; /* bordes redondos en las esquinas */
+     margin-left: 15px;/* Para centrar el cuadrito con los demas */
+}
+
+.input input{
+    height: 2.50rem;
+}
+
+.password-olvidada, a {
+    margin-left: 15px;
+   
+}
 
     
 }
