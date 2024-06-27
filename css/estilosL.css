@@ -384,8 +384,8 @@ main.min-main {
 
 
 
-/* HECHO POR LAURA */
-
+/* HECHO POR LAURA- FORMULARIO */
+    
 
 .texto2 .h2 {
     color: #193A6A;
@@ -404,7 +404,6 @@ main.min-main {
 .box {
   box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
   padding: 20px;
-  background-color: #f9f9f9;
   border-radius: 5px;
  
 }
@@ -455,504 +454,7 @@ select.form-input {
 
 
 
-a {
-    color: #193A6A; /* color del link */
-}
 
-.a-2{
-    color: #fff; /* color de la letra  */
-    text-decoration: none/* para quitarle la rayita  */
-}
-
-.imagen-panel {
-    transition: transform 0.3s ease;
-}
-
-.imagen-panel:hover {
-    transform: scale(1.1);
-}
-
-
-/* RECUPERAR- CUENTA */
-
-.cont{
-    padding: 30px;/* cantidad de espacio del elmento  */
-    margin: 70px  auto;/* margen del elemento 20px arriba y abajo y auto a la izquierda y derecha */
-    border: 1px solid;/* un borde alrededor del elemento*/
-    border-radius: 20px;
-    width: 55%;/*  ancho del elemento */
-    height: 290px;/*altura del elemento  */
-}
-
-
-h5{
-    border-bottom: 3px solid #ED9B51;
-    margin-left: -30px;
-    margin-right: -30px;
-    margin-bottom: 20px;
-}
-
-
-h3{
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    margin-left: -5px;
-}
-
-.ip{
-    border-radius: 7px;
-    margin-top: 15px;/* margen superior */
-     /* border-color: white; */
-     display: flex;/* para que sea flexible */
-     width: 95%;
-     padding: 13px;/* el tamano de los input */
-     margin-bottom: 45px;
-    border: 1px solid;
-
-}
-
-.btn{
-    text-align: end;
-    margin-right: 10px;
-    font-size: 25px;
-}
-
-
-.enlace1{
-    color: black;
-    margin-right: 40px;
-    text-decoration: none;
-    border-radius: 5px;
-   
-}
-
-.enlace2{
-    margin-right: 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    top: 20px;
-   
-}
-
-
-
-
-
-
-
-
-/* MEDIA QUERY CELULAR*/
-
-@media screen and (max-width: 600px) {
-
-
-     .encabezado {
-        color: #193A6A;/* color de el tituolo de el formulario */
-        font-size: 24px;/* tamano de la letra  */
-        font-weight: 750;/* ancho de la letra para que el background llegue hasta el final de la pagina */
-        padding-bottom: 8px;/* agrega algo de espacio a la izquierda del elemento */
-        border-bottom: 2px solid #ED9B51;/* borde inferior al elemento */
-        margin-left: -29px;/* agrega algo de espacio a la izquierda del element */
-        margin-right: -30px;
-        margin-top: -3px;
-     }
-
-     .box {
-        border: 1px solid #E6E6E6;/*  borde del elemento para que tenga 1 píxel de ancho, sea sólido (sin puntos ni rayas) y de color blanco. */
-        padding: 30px;/* cantidad de espacio del elmento  */
-        margin: 30px  auto;/* maren del elemento 20px arriba y abajo y auto a la izquierda y derecha */
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/* efecto de sombra  */
-        border: 5px;/* un borde alrededor del elemento*/
-        width: 90%;/*  ancho del elemento */
-        height: 610px;/*altura del elemento  */
-    }
-
-    label {
-        color: #193A6A;/* color de la letra  */
-        font-weight: 600;/* grosor de la letra  */
-        font-size: 15px;/* tamano de la letra */
-    }
-    
-    
-    
-    .form-1{
-        margin-left: -8px ;/* margen izquierdo */
-        margin-top: 15px;/* margen superior */
-        width: 180px;/* ancho de los inputs */
-    }
-
-    .form-2 {
-        margin-left: 200px;/* para mover a la izquierda */
-        margin-top: -285px;/* para mover arriba */
-        width: 180px;/* ancho de los inputs */
-       
-    }
-    
-    .form-input {
-        /* border-color: white; */
-        display: flex;/* para que sea flexible */
-        width: 100%;/* el ancho que quiero que tenga, en este caso use el porciento porque era mas efeciente */
-        padding: 8px;/* el tamano de los input */
-    }
-
-    textarea {
-        margin-top: 15px;  /* espacio de arriba */
-        width: 98%; /*   tamaño del cuadro*/
-        resize: none;/* no darle la opcion al usuario de que lo haga mas grande el cuadro  */
-        min-height: 140px; /* Espacio minimo haca arriba */
-       border: 1px solid;/* border: none; */
-      
-     }
-
-    
-      .ancho {
-      padding: 8px;/* cantidad de espacio del elmento  */
-      width: 100px; /* el ancho del boton */
-      border-radius: 5px;/* para redondear un poco el boton */
-      border: none;/* para quitarle el bordde */
-       margin-top: 15px;
-     }
-
-
-      .link {
-       margin-top: 3px;/* margen superior */
-       text-align: center;/* texto en el medio */
-      }
-
-
-
-
-}
-
-/* MEDIA QUERY TABLET*/
-
-@media screen and (min-width: 601px) and (max-width: 1000px) {
-
-     /* estilos de tablet del header  trabajados por yohan*/
-
-
-     .foto-nom{
-        width: 21%;
-    }
-      .foto-nom a{
-        font-size: 12px;
-    }
-    .lista-menu .item{
-        font-size: 13px;
-    }
-    .conten-header .nav-alto{
-    display: flex;
-    }
-
-
-    .logo img{
-        width: 50%;
-        margin-bottom: 20px;
-    }
-
-
-
-     .hed-s h1 {
-        background-color: #193A6A;
-        padding: 5px;
-     }
-     
- 
-     h2{
-         text-align: center; 
-         font-size: 40px; 
-         color: #193A6A; 
-      }
- 
-      
- 
-      /*MENU Y FOTO*/
- 
-      .hed-s .usuario{
-         
-        margin-bottom: -9px;
-        margin-left: 4px; /* Despegar un poco de los menus */
-        border-radius: 50%;
-       }
- 
-     
- 
-      .menu  {
-     
-      display: flex;
-      height: 50px;
-      justify-content: end;
-      align-items: center;
-      }
- 
-      .menu ul {
-    
-       display: flex;
-       margin-left: 175px;
-       }
- 
-      .menu li {
-     
-       display: flex;
-       margin: 8px;
-      }
- 
-      .hed-s .links{
-      color: white;
-       font-size: 17px;
-      }
- 
-      .maria{
-         margin-bottom: 5px;
-         color: #fff;
-         font-size: 16px;
-         text-decoration: none;
-         margin-left: 3px;
-         transition: all 0.3s ease;
-     }
- 
-      /* IMAGENES DEL CENTRO */
- 
- 
-      .imagen-panel{
-      margin-bottom: 5px;
-       }
- 
-       .panel {
-       display: flex;
-       flex-direction:row; 
-       align-items: center;
-       }
-     
-       section, footer{
-       padding-top: 150px; 
-       background: url(../imagenes/fondo2.jpg);
-       background-size:cover; 
-       background-attachment:fixed;
-       
- 
-      }
-
-      
-     .encabezado {
-        color: #193A6A;/* color de el tituolo de el formulario */
-        font-size: 24px;/* tamano de la letra  */
-        font-weight: 750;/* ancho de la letra para que el background llegue hasta el final de la pagina */
-        padding-bottom: 8px;/* agrega algo de espacio a la izquierda del elemento */
-        border-bottom: 2px solid #ED9B51;/* borde inferior al elemento */
-        margin-left: -29px;/* agrega algo de espacio a la izquierda del element */
-        margin-right: -30px;
-        margin-top: -3px;
-     }
-
-     .box {
-        border: 1px solid #E6E6E6;/*  borde del elemento para que tenga 1 píxel de ancho, sea sólido (sin puntos ni rayas) y de color blanco. */
-        padding: 30px;/* cantidad de espacio del elmento  */
-        margin: 30px  auto;/* maren del elemento 20px arriba y abajo y auto a la izquierda y derecha */
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/* efecto de sombra  */
-        border: 5px;/* un borde alrededor del elemento*/
-        width: 90%;/*  ancho del elemento */
-        height: 610px;/*altura del elemento  */
-    }
-
-    label {
-        color: #193A6A;/* color de la letra  */
-        font-weight: 600;/* grosor de la letra  */
-        font-size: 15px;/* tamano de la letra */
-    }
-    
-    
-    
-    .form-1{
-        margin-left: -8px ;/* margen izquierdo */
-        margin-top: 15px;/* margen superior */
-        width: 390px;/* ancho de los inputs */
-    }
-
-    .form-2 {
-        margin-left: 400px;/* para mover a la izquierda */
-        margin-top: -285px;/* para mover arriba */
-        width: 390px;/* ancho de los inputs */
-       
-    }
-    
-    .form-input {
-        /* border-color: white; */
-        display: flex;/* para que sea flexible */
-        width: 100%;/* el ancho que quiero que tenga, en este caso use el porciento porque era mas efeciente */
-        padding: 8px;/* el tamano de los input */
-    }
-
-    textarea {
-        margin-top: 15px;  /* espacio de arriba */
-        width: 98%; /*   tamaño del cuadro*/
-        resize: none;/* no darle la opcion al usuario de que lo haga mas grande el cuadro  */
-        min-height: 140px; /* Espacio minimo haca arriba */
-       border: 1px solid;/* border: none; */
-      
-     }
-
-    
-      .ancho {
-        padding: 8px;/* cantidad de espacio del elmento  */
-     width: 100px; /* el ancho del boton */
-     border-radius: 5px;/* para redondear un poco el boton */
-     border: none;/* para quitarle el bordde */
-     margin-top: 15px;
-      }
-
-
-     .link {
-      margin-top: 3px;/* margen superior */
-      text-align: center;/* texto en el medio */
-     }
-
-
-
-}
-
-/* MEDIA QUERY CELULAR, RECUPERAR CUENTA */
-  @media screen and (max-width: 600px) {
-
-    .logo img{
-        width: 90%;
-    }
-.nav-alto{
-    /* width: 100%; */
-        justify-content: end;
-        align-items: center;
-        /* margin-right: 10px; */
-        /* background-color: #2b69c5; */
-        
-    }
-   .menu-icono{
-    /* background-color: #2b69c5; */
-    position: absolute;
-        display: block;
-    }
-    .lista-menu{
-        display: none;
-    }
-    details{
-        display: none;
-    }
-
-    .lista-menu.active {
-        display: block;
-        /* display: flex; */
-        /* flex-direction: column; */
-        margin-top: 82%;
-        background-color: #193A6A;
-        width: 200px;
-        border-radius: 5px;
-        /* transform: translate(-100px); */
-        /* margin-right: 30px; */
-        z-index: 1;
-        /* margin-top:55%; */
-    
-    }
-    .lista-menu.active a{
-        display: flex;
-        color: #FFF;
-        width: 190px;
-        /* flex-direction: row-reverse; */
-        /* flex-wrap: nowrap; */
-        /* background-color: #4AD818; */
-        padding: 0px;
-        /* justify-content: end; */
-
-        font-size: 13px;
-        margin: 5px;
-    }
-    .lista-menu.active a:hover{
-        height: inherit;
-        /* background-color: #FF0000; */
-    }
-    .foto-nom{
-        width: 25%;
-        font-size: 13px;
-    }
-   
-
-
-
-    .hed-s  .logo {
-       width: 200px;
-       height: auto; 
-       margin-left: 10px;
-    }
-
-    .hed-s .Recupera {
-        font-size: 23px;
-     }
-
-
-      .cont {
-          padding: 30px;
-          margin: 70px auto;
-          border: 1px solid;
-          border-radius: 20px;
-          width: 420px;
-          height: 270px;
-      }
-
-
-      h5 {
-          border-bottom: 3px solid #ED9B51;
-          margin-left: -30px;
-          margin-right: -30px;
-          margin-bottom: 20px;
-      }
-
-
-      h3 {
-          font-size: 17px;
-          font-weight: bold;
-          margin-bottom: 10px;
-          margin-left: -5px;
-      }
-
-      .ip {
-          border-radius: 7px;
-          margin-top: 40px;
-          /* margen superior */
-          /* border-color: white; */
-          display: flex;
-          /* para que sea flexible */
-          width: 97%;
-          padding: 3px;
-          /* el tamano de los input */
-          margin-bottom: 70px;
-          border: 1px solid;
-
-      }
-
-      .btn {
-          text-align: end;
-          margin-right: 15px;
-          font-size: 15px;
-      }
-
-
-      .enlace1 {
-          color: black;
-          margin-right: 20px;
-          text-decoration: none;
-          border-radius: 5px;
-
-      }
-
-      .enlace2 {
-          margin-right: 30px;
-          text-decoration: none;
-          border-radius: 5px;
-          top: 20px;
-
-      }
-
-
-  }
 
 
  /* ADOCCION */
@@ -979,6 +481,7 @@ h3{
     font-size: 1.5em;
     margin: 10px 0;
 }
+
 
 /* CUERPO O FONDO */
 .body {
@@ -1092,6 +595,8 @@ h3{
     /* margin-top: 20px; */
 }
 
+
+
 /* media queries del header */
 
   @media (max-height: 600px) {
@@ -1128,4 +633,23 @@ h3{
     }
 }
 
-/* ADOPCION PARTE DEL ADMIN */
+
+
+/* FORMULARIO DE AGENDAR CITA */
+
+@media (max-width: 600px) {
+.texto2 .h2 {
+    color: #193A6A;
+    font-size: 2.40em;
+    margin-top: 20;
+    text-align: center;
+}
+
+.texto2 .p2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.10em;
+    margin: 10px 0;
+}
+
+}

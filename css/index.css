@@ -6,9 +6,6 @@
 
 /* HECHO POR LAURA */
 
- /* body{
-    background-color: #fcfaf6;
- } */
 
 .contenedor {
     margin: 0 auto; /* el 0, arriba y abajo */   /* el auto, izquierda y derecha */
@@ -116,37 +113,42 @@
     .contenedor {
         width: 5%;
     }
+
+    .formulario {
+        margin-left: 60px;
+        margin-top: -15px;
+        padding: 25px; /* para que el formulario tenga el espacio de todos los lados */
+    }
+
+    .input {
+        font-size: 18px; /* Tamano de letra */
+        font-weight: bold;  /* letra en negrita */
+        margin: 20px 20px 20px; /* Espacio arriba, abajo y izquierda de las letras  */
+    }
+
+    .input input{
+        max-width: 100%;  /* Ancho de los cuadritos */
+       
+    }
     
     .logo{
     margin-left: 10%;
     width: 300px;
   }
 
-  
-  .input {
-    font-size: 15px; /* Tamano de letra */
-    font-weight: bold;  /* letra en negrita */
-    margin: 10px 16px; /* Espacio arriba, abajo y izquierda de las letras  */
+
+    .iniciarSeccion{
+     width: 90%;
+     padding: 10px; /* espacio de los cuadros y de lo que esta dentro */
+     border-radius: 5x; /* bordes redondos en las esquinas */
+     margin-left: 17px;/* Para centrar el cuadrito con los demas */
 }
 
     .input input{
-    width: 127%;  /* Ancho de los cuadritos */
-   
-}
-
-    .iniciarSeccion{
-
-     width: 118%;
-     padding: 10px 100px; /* espacio de los cuadros y de lo que esta dentro */
-     border-radius: 10px; /* bordes redondos en las esquinas */
-     margin-left: 15px;/* Para centrar el cuadrito con los demas */
-}
-
-.input input{
     height: 2.50rem;
 }
 
-.password-olvidada, a {
+    .password-olvidada, a {
     margin-left: 15px;
    
 }
