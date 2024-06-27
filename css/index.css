@@ -114,12 +114,6 @@
         width: 5%;
     }
 
-    .formulario {
-        margin-left: 60px;
-        margin-top: -15px;
-        padding: 25px; /* para que el formulario tenga el espacio de todos los lados */
-    }
-
     .input {
         font-size: 18px; /* Tamano de letra */
         font-weight: bold;  /* letra en negrita */
