@@ -116,15 +116,14 @@
 
     .input {
         font-size: 18px; /* Tamano de letra */
-        font-weight: bold;  /* letra en negrita */
-        margin: 20px 20px 20px; /* Espacio arriba, abajo y izquierda de las letras  */
+
     }
 
     .input input{
         max-width: 100%;  /* Ancho de los cuadritos */
        
     }
-    
+    j
     .logo{
     margin-left: 10%;
     width: 300px;
