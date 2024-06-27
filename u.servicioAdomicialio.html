@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DServicios a domicilio</title>
+    <title>Servicios a domicilio</title>
     <link rel="stylesheet" href="./css/estilos-yohan.css">
     <link rel="icon" href="./imagenes/icon.png">
 </head>
@@ -42,12 +42,12 @@
                     </li>
 
                       <li>
-                        <a href="u_guarderia.html">
+                        <a href="u_citas-agendadasGuarderia.html">
                             <img src="recursos/icon/guaderia-pendiente.svg" alt="citas de guarderia pendienre" class="icon">
-                            <span>Citas Guardería</span>
+                            <span>Citas Guardería<pan>
                         </a>
                     </li>
-                    <li>
+                     <li>
                         <a href="u_Servicios-solicitud.html">
                             <img src="recursos/icon/citasAgendadas.svg" alt="Citas Agendadas" class="icon">
                             <span>Servicios Solicitados</span>
@@ -62,7 +62,7 @@
                     </li>
 
                     <li>
-                        <a href="u_adopcion.html">
+                        <a href="#">
                             <img src="recursos/icon/adopcion.svg" alt="Adopción" class="icon">
                             <span>Adopción</span>
                         </a>
@@ -73,19 +73,43 @@
 
             <div class="linea"></div>
 
-            <div class="usuario">
-                <a href="#" onclick="irAPerfil()">
-                    <img src="imagenes/user-.png" alt="Usuario">
-                    <div class="info-usuario">
-                        <div class="nombre-email">
-                            <span class="nombre">Maria Lopez</span>
-                            <span class="email">marial@gmail.com</span>
+          <div class="usuario">
+            <a href="#" onclick="abrirModal()">
+                <img src="imagenes/user-.png" alt="Usuario">
+                <div class="info-usuario">
+                    <div class="nombre-email">
+                        <span class="nombre">Maria Lopez</span>
+                        <span class="email">marial@gmail.com</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close" onclick="cerrarModal()">&times;</span>
+                <div class="profile-container">
+                    <div class="profile-header">
+                        <div class="profile-pic-container">
+                            <img id="profile-pic" src="default-profile.jpg" alt="">
+                        </div>
+                        <div class="profile-info">
+                            <h1>Maria Lopez</h1>
+                            <p>Email: <span id="email">marial@gmail.com</span></p>
+                            <p>Teléfono: <span id="telefono">809 456 7890</span></p>
+                            <p>Mascota: <span id="mascota">Perro</span></p>
                         </div>
                     </div>
-                </a>
+                    <div class="accion">
+                      <input type="file" id="upload-pic" accept="image/*" onchange="changeProfilePic()" >
+                      <label for="upload-pic">Cambiar foto de perfil</label>
+                     <button class="boton-cs-perfil" id="cerrar-sesion">Cerrar Sesión</button>
+                     </div>
+                </div>
             </div>
         </div>
     </header>
+    
     <main>
           <div class="serviAdomi-alto">
              <h1 class="h1">¡Por favor de llenar!</h1>
@@ -93,7 +117,8 @@
 
           </div>
         <form >
-            <div class="formularios-servicios">
+            <div class="con-main-servicios">
+                <div class="formularios-servicios">
             <!-- <div class="izquierdo-servi columna-servi"> -->
         <div class="formulario-servicios">
         <label class="label-servicios" for="nom">Nombre:</label>
@@ -183,7 +208,7 @@
 
                     <div>
                         <!-- <label  class="label-fondo"for="revisiones">Revisiones físicas - RD$500</label> -->
-                    <input type="checkbox" id="revisiones" name="servicios" value="2000">Revisiones físicas - RD$5,00
+                    <input type="checkbox" id="revisiones" name="servicios" value="2000">Revisiones físicas - RD$2,000
                     </div>
                 </div>
 
@@ -192,8 +217,10 @@
 
             </div>
             <p class="Total">Total: <span id="totalPrecio">0</span></p>
-            <div class="boton-servicio">
-                <button  class="enviar" type="submit" value="Pedir">
+            <!-- <div class="boton-servicio"> -->
+                <button  class="pedir" type="submit" value="Pedir">Pedir</button>
+            <!-- </div> -->
+
             </div>
 
       
@@ -206,6 +233,7 @@
         
     </main>
     <script src="js/calculo.js"></script>
+    <script src="./js/header.js"></script>
 
     
 </body>

@@ -1,3 +1,5 @@
+// Hecho por yohan 
+
 document.addEventListener('DOMContentLoaded', function() {
     // Espera a que se cargue completamente el DOM antes de ejecutar el código
     const checkboxes = document.querySelectorAll('input[type="checkbox"]');

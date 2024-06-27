@@ -417,9 +417,8 @@ a{
     justify-content: space-between;
 }
 .text-pag-b{
-    font-size: 15px;
+    font-size: 0.9vw;
     margin-left: 10px;
-    font-size: 13px;
 }
 
 .botones{
@@ -479,7 +478,7 @@ a{
 
 }
 table{
-    font-size: 20px;
+    font-size:1.6vw;
     margin-top: 20px;
     text-align: center;
     width: 75%;
@@ -493,7 +492,6 @@ th{
 }
 th,td{
     padding: 15px;
-    font-size: 10pxs;
 }
 .gris{
        background-color: #D9D9D9;
@@ -547,8 +545,11 @@ li{
 .conten-lista-desplie{
     margin-left: 50px;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around;  */
+    flex-wrap: wrap;
+    /* flex-direction: column; */
     margin-top: 20px;
+    /* background-color: #246997; */
  
 }
 .encabeza{
@@ -594,23 +595,20 @@ li{
 }
 .h2-descripcion,.descripcion{
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .h2-descripcion{
-    font-size: 30px;
+    /* font-size: 30px; */
     color: #193A6A;
 
     
 
 }
-.descripcion{
-    width: 60%;
-    font-size: 20px;
-    margin-top: 10px;
+p{
+    /* width: 60%; */
+    font-size:1.9vw;
   
 }
-
-
 /* u_servicios.html */
 
 .servicio-adomicilio {
@@ -791,8 +789,7 @@ li{
     }
 
     .text-pag-b {
-        width: 101%;
-        font-size: 18px;
+        font-size: 1.2vw;
     }
 
     .center {
@@ -819,9 +816,9 @@ li{
        margin: 100px;
     }
 
-    .text-pag-b {
+    /* .text-pag-b {
         width: 100%;
-    }
+    } */
 
     .center {
         margin-left: 50px;
@@ -924,6 +921,14 @@ li{
         width: 90%;
       margin: 30px 40px;
     }
+    .conten-lista-desplie{
+        flex-direction: column;
+
+    }
+    .conten-encabeza{
+        width: 200px;
+    }
+    
 
   }
   
@@ -935,6 +940,13 @@ li{
 
     .servicio-adomicilio {
         width: 60%; 
+    }
+    .conten-lista-desplie{
+        flex-direction: column;
+
+    }
+    .conten-encabeza{
+        width: 200px;
     }
   }
 
@@ -971,5 +983,12 @@ li{
 
     .servicio-contenedor {
         margin-left: 0; /* Ajuste del margen para pantallas pequeñas */
+    }
+    .conten-lista-desplie{
+        flex-direction: column;
+
+    }
+    .conten-encabeza{
+        width: 200px;
     }
 }

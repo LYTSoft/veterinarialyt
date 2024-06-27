@@ -139,23 +139,10 @@
                     <label for="fecha">Fecha:</label><br>
                     <input type="date" id="fecha" name="fecha" class="form-input" required><br>
 
-                    <label for="servicio">Servicios:</label><br>
-                    <select id="servicio" name="servicio" class="form-input" required>
-                        <option value="">Seleccione una opción</option>
-                        <option value="gato">Higiene</option>
-                        <option value="ave">Exámenes de laboratorio</option>
-                        <option value="roedor">Revisiones físicas</option>
-                        <option value="roedor">Consultas</option>
-                         <option value="roedor">Vacunas básicas y refuerzos</option>
-                          <option value="roedor">Tratamientos contra parásitos</option>
-
-                        
-                    </select><br>
+            
+               
 
                 
-
-
-                </div>
 
                 <div class="form-2">
 
@@ -174,6 +161,20 @@
                         <option value="perro">Otros</option>
 
                     </select><br>
+                     <label for="servicio">Servicios:</label><br>
+                    <div>
+                        <input type="checkbox" name="Lyme" value="2000" >Higiene para Mascotas
+                    </div><br>
+
+                    <div>
+                        <input type="checkbox" name="Lyme" value="2000">Chequeo General
+                    </div><br>
+
+                    <div>
+                        <input type="checkbox" name="Lyme" value="2000">Vacunación y Medicación
+                    </div><br>
+
+                </div>
 
                 </div>
                 <div>
@@ -182,7 +183,7 @@
                
 
                 <div class="boton">
-                    <button required type="submit" class="ancho" onclick="enviar()">Enviar</button>
+                    <button required type="submit" class="ancho">Enviar</button>
     
                 </div>
             </form>
