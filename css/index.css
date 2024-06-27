@@ -123,20 +123,20 @@
   }
 
   
-.input {
+  .input {
     font-size: 15px; /* Tamano de letra */
     font-weight: bold;  /* letra en negrita */
     margin: 10px 16px; /* Espacio arriba, abajo y izquierda de las letras  */
 }
 
-.input input{
-    width: 110%;  /* Ancho de los cuadritos */
+    .input input{
+    width: 127%;  /* Ancho de los cuadritos */
    
 }
 
-.iniciarSeccion{
+    .iniciarSeccion{
 
-     width: 100%;
+     width: 118%;
      padding: 10px 100px; /* espacio de los cuadros y de lo que esta dentro */
      border-radius: 10px; /* bordes redondos en las esquinas */
      margin-left: 15px;/* Para centrar el cuadrito con los demas */
