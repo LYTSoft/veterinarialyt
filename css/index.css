@@ -116,25 +116,26 @@
 
     .input {
         font-size: 18px; /* Tamano de letra */
-
     }
 
     .input input{
         max-width: 100%;  /* Ancho de los cuadritos */
        
     }
-    j
+    
     .logo{
-    margin-left: 10%;
-    width: 300px;
-  }
-
+        margin-left: 0%;
+        margin-bottom: 2px;
+         width: 350px;
+        
+    }
+    
 
     .iniciarSeccion{
      width: 90%;
      padding: 10px; /* espacio de los cuadros y de lo que esta dentro */
      border-radius: 5x; /* bordes redondos en las esquinas */
-     margin-left: 17px;/* Para centrar el cuadrito con los demas */
+     margin-left: 10px;/* Para centrar el cuadrito con los demas */
 }
 
     .input input{
@@ -142,7 +143,7 @@
 }
 
     .password-olvidada, a {
-    margin-left: 15px;
+    margin-left: 5px;
    
 }
 
