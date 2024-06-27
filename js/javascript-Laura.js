@@ -21,3 +21,12 @@ if(user=="admin" && pass=="1212"){
 
 
 }
+
+
+
+function enviar(){
+    swal("Correcto", "¡Gracias por llenar este formulario!", "success");
+}
+
+
+
