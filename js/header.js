@@ -30,6 +30,29 @@ logo.addEventListener('click', () => {
 });
 
 
+// CODIGO DE EL HEADER TERMINADO
+
+
+
+// Cambiar la foto de perfil en el header y en el modal
+const subirFoto = document.getElementById('subir-foto'); // Input para subir la foto
+const headerPerfilFoto = document.querySelector('.usuario img'); // Imagen de perfil en el header
+const modalPerfilFoto = document.getElementById('perfil-foto'); // Imagen de perfil en el modal
+
+subirFoto.addEventListener('change', function() {
+    const file = this.files[0];
+    if (file) {
+        const reader = new FileReader();
+        reader.onload = function() {
+            headerPerfilFoto.src = reader.result; // Cambiar la imagen de perfil en el header
+            modalPerfilFoto.src = reader.result; // Cambiar la imagen de perfil en el modal
+        }
+        reader.readAsDataURL(file); // Leer el archivo seleccionado como URL base64
+    }
+});
+
+
+
 // Crear funcion para cuando de click en el boton lo lleve a la pagina correspondiente 
 function agendarCita () {
     window.location.href = "u_agendarCita.html";
@@ -43,34 +66,6 @@ function agendarCitaAdomicilio () {
     window.location.href = "u.servicioAdomicialio.html"
 }
 
-// CODIGO DE EL HEADER TERMINADO
-
-
-
-
-
-
-
-// Cambiar la foto de perfil en el header y en el modal
-const uploadPic = document.getElementById('upload-pic'); // Input para subir la foto
-const headerProfilePic = document.querySelector('.usuario img'); // Imagen de perfil en el header
-const modalProfilePic = document.getElementById('profile-pic'); // Imagen de perfil en el modal
-
-uploadPic.addEventListener('change', function() {
-    const file = this.files[0];
-    if (file) {
-        const reader = new FileReader();
-        reader.onload = function() {
-            headerProfilePic.src = reader.result; // Cambiar la imagen de perfil en el header
-            modalProfilePic.src = reader.result; // Cambiar la imagen de perfil en el modal
-        }
-        reader.readAsDataURL(file); // Leer el archivo seleccionado como URL base64
-    }
-});
-
-
-
-
 
 
 // Función para abrir el modal
@@ -81,19 +76,12 @@ function abrirModal() {
 }
 
 
-
-
-
 // Función para cerrar el modal
 function cerrarModal() {
     var modal = document.getElementById('modal');
     modal.style.display = 'none'; // Ocultar el modal
     document.body.style.overflow = ''; // Restaurar scroll en el body
 }
-
-
-
-
 
 
 // Función para cerrar sesión

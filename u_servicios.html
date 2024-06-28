@@ -32,7 +32,7 @@
             <nav class="navegacion">
                 <ul>
                     <li>
-                        <a href="u_citas-agendadas.html">
+                        <a href="#">
                             <img src="recursos/icon/inicio.svg" alt="Inicio" class="icon">
                             <span>Inicio</span>
                         </a>
@@ -52,7 +52,7 @@
                     </li>
                       <li>
                         <a href="u_Servicios-solicitud.html">
-                            <img src="recursos/icon/citasAgendadas.svg" alt="Citas Agendadas" class="icon">
+                            <img src="recursos/icon/servicios-solicitado.svg" alt="Citas Agendadas" class="icon">
                             <span>Servicios Solicitados</span>
                         </a>
                     </li>
@@ -70,12 +70,6 @@
                             <span>Adopción</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="u_info_general.html">
-                            <img src="recursos/icon/informacion.svg" alt="Información" class="icon">
-                            <span>Información</span>
-                        </a>
-                    </li>
                     
                 </ul>
             </nav>
@@ -83,7 +77,9 @@
             <div class="linea"></div>
 
             
-          <div class="usuario">
+         
+
+         <div class="usuario">
             <a href="#" onclick="abrirModal()">
                 <img src="imagenes/user-.png" alt="Usuario">
                 <div class="info-usuario">
@@ -97,13 +93,13 @@
 
         <div class="modal" id="modal">
             <div class="modal-content">
-                <span class="close" onclick="cerrarModal()">&times;</span>
-                <div class="profile-container">
-                    <div class="profile-header">
-                        <div class="profile-pic-container">
-                            <img id="profile-pic" src="default-profile.jpg" alt="">
+                <span class="cerrar-modal" onclick="cerrarModal()">&times;</span>
+                <div class="perfil-container">
+                    <div class="perfil-header">
+                        <div class="perfil-foto-container">
+                            <img id="perfil-foto" src="default-profile.jpg" alt="">
                         </div>
-                        <div class="profile-info">
+                        <div class="perfil-info">
                             <h1>Maria Lopez</h1>
                             <p>Email: <span id="email">marial@gmail.com</span></p>
                             <p>Teléfono: <span id="telefono">809 456 7890</span></p>
@@ -111,14 +107,15 @@
                         </div>
                     </div>
                     <div class="accion">
-                      <input type="file" id="upload-pic" accept="image/*" onchange="changeProfilePic()" >
-                      <label for="upload-pic">Cambiar foto de perfil</label>
+                      <input type="file" id="subir-foto" accept="image/*" onchange="changeProfilePic()" >
+                      <label for="subir-foto">Cambiar foto de perfil</label>
                      <button class="boton-cs-perfil" id="cerrar-sesion">Cerrar Sesión</button>
                      </div>
                 </div>
             </div>
         </div>
     </header>
+
     <main>
         <section class="servicio-adomicilio">
             <h2>¡Disfruta de nuestros servicios a domicilio!</h2>
