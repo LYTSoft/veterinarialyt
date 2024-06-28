@@ -14,7 +14,7 @@ if(user=="admin" && pass=="1212"){
         window.location="u_servicios.html";
         // alert("Usuario y contraseña introducido correctamnete")
     } else {
-        alert("Ingresar tus datos correctos")
+        swal("Error", "Ingresar tus datos correctos", "error")
     }
 }
 
