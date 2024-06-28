@@ -528,7 +528,7 @@ tbody tr{
     max-width: 600px;
     width: 100%;
 }
-.medioRegistro{
+.medioRegistro {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -543,12 +543,12 @@ tbody tr{
     margin-bottom: 20px;
 }
 
-.medio  img {
+.medio img {
     max-width: 200px;
     margin-bottom: 10px;
 }
 
-.medio  h1 {
+.medio h1 {
     font-size: 25px;
     color: #003366;
     margin: 0;
@@ -556,13 +556,15 @@ tbody tr{
 
 .formulario .form-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .formulario .form-group {
     margin-bottom: 15px;
-    flex: 1;
     padding: 0 10px;
+    box-sizing: border-box;
+    flex: 1 1 45%;
 }
 
 .formulario label {
@@ -578,11 +580,6 @@ tbody tr{
     border-radius: 4px;
     border: 1px solid #ccc;
     box-sizing: border-box;
-}
-
-.formulario input[type="checkbox"] {
-    width: auto;
-    margin-top: 0;
 }
 
 .formulario button {
@@ -609,6 +606,7 @@ tbody tr{
 .formulario .form-group a:hover {
     text-decoration: underline;
 }
+
 
 
 /* Estilos de listado de mascotas y usuarios ------------------------------------------------------------------*/
@@ -735,142 +733,6 @@ tbody tr{
   cursor: pointer;
   
 }
-
-/* .span-total{
-    border: solid 2px #ca3131;
-    width: 1000px;
-
-} */
-/* [type*="checkbox"]{
-    display: flex;
-    align-self: flex-end;
-} */
-
-
-
-
-
-
-
-
-
-
-
-/* .head-recu{
-    display: flex;
-    flex-direction: column;
-}
-
-.head-recur h1{
-    display: flex;
-    align-items: center;
-    height: 50px;
-    background-color: #193A6A;
-    color: #fff;
-    
-}
-.main-recu{
-    width: 100%;
-    height: 490px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-   
-}
-.conten-recu{
-    border: solid 2px #000;
-    display: flex;
-    flex-direction: column;
-   width: 55%;
-    height: 370px;
-    margin-top: 40px;
-    border-radius: 30px;
-}
-
-.conten-alto {
-   height: 25%;
-    border-bottom: solid  #ED9B51;
-}
-
-.conten-alto p,h3{
-    font-size: 22px;
-    font-weight: 700;
-    margin:20px 0 0 30px;
-}
-.conten-alto a{
-    text-decoration: none;
-}
-.div-cod{
-    height: 50px;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-around;
-}
-.div-cod input{
-    width: 10%;
-    height: 100% ;
-    border-radius: 17%;
- 
-
-}
-/* pagina del codigo de verificacion */
-/* .nueva-con{ */
-    /* display: flex;
-    flex-direction: column;
-    height: 100%;
- 
-
-}
-.nueva-con .crea-con{
-    display: flex;
-    height: 80px;
-    align-items: center;
-     border-bottom: solid  #ED9B51;
-
-}
-.nueva-con .crea-con h3{
-    font-size: 29px;
-    
-
-}
-.con-contras{
-    height: 200px;
-     margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
-
-}
-.con-contras label{
-   
-    font-size: 22px;
-    font-weight: 800;
-    text-align: center;
-}
-.con-contras input{
-    margin-top: 10px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-     border-radius: 5px  5px  5px  5px;
-    width: 25%;
-}
-.con-contras a{
-    color: #fff;
-    border-radius: 10px  10px  10px  10px;
-    width: 20%;
-    text-align: center;
-    background-color: #193A6A;
-
-    margin-top: 15px;
-    font-size: 25px;
-    text-decoration: none;
-}
-.con-contras a:hover{
-    color: #ED9B51;
-}  */
-
 
 
      
