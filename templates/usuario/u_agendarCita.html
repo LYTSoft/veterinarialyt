@@ -1,16 +1,20 @@
-<!-- HECHA POR YOHAN -->
+<!-- HECHA POR LAURA -->
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página para visualizar citas pendientes en Petvet">
-    <title>Citas pendientes</title>
-    <link rel="stylesheet" href="./css/estilos-yohan.css">
-    <link rel="icon" href="./imagenes/icon.png">
+    <meta name="description" content="Descubre los servicios excepcionales de PetVet, tu clínica veterinaria de confianza. Ofrecemos atención médica integral para tus mascotas, desde consultas generales y vacunas hasta cirugías especializadas. Nuestro equipo dedicado está comprometido con el bienestar animal, proporcionando cuidados personalizados y servicios de calidad. Confía en PetVet para mantener a tus mascotas felices y saludables en cada etapa de sus vidas.">
+    <title>Página de los Servicios</title>
+    <link rel="icon" href="imagenes/icon.png">
+    <link rel="stylesheet" href="css/estilosL.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/javascript-Laura.js"></script>
 </head>
-<body class="body-agandadas">
+
+<body>
     <header>
         <div class="menu">
             <img src="recursos/icon/menu.svg" alt="Menú">
@@ -43,15 +47,15 @@
                     </li>
 
                       <li>
-                        <a href="#">
-                            <img src="recursos/icon/guaderia-pendiente.svg" alt="citas de guarderia pendiente" class="icon">
+                        <a href="u_citas-agendadasGuarderia.html">
+                            <img src="recursos/icon/guaderia-pendiente.svg" alt="citas de guarderia pendienre" class="icon">
                             <span>Citas Guardería<pan>
                         </a>
                     </li>
-                      <li>
+                     <li>
                         <a href="u_Servicios-solicitud.html">
                             <img src="recursos/icon/servicios-solicitado.svg" alt="Citas Agendadas" class="icon">
-                            <span>Servicios solicitados</span>
+                            <span>Servicios Solicitados</span>
                         </a>
                     </li>
 
@@ -68,7 +72,7 @@
                             <span>Adopción</span>
                         </a>
                     </li>
-                   
+                    
                     
                 </ul>
             </nav>
@@ -112,68 +116,80 @@
         </div>
     </header>
 
+    <div class="box">
+        <main>
+             <div class="favor">
+             
+                <div class="texto2">
+                  <h1 class="h2">¡Por favor de llenar!</h1>
+                  <p class="p2">¡Completa este formulario antes de tu cita para el mejor cuidado de tu mascota! </p>
+              </div>
+            
+            <form class="formulario">
+                <div class="form-1">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" placeholder="Nombre" name="nombre" class="form-input" required><br>
 
-    <main class="con-agendadas">
-        <div class="con-tabla">
-            <table class="tablas-agendadas">
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Desde</th>
-                        <th>Hasta</th>
-                        <th>Mascota</th>
-                        <th>Acciones</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="blanco">
-                        <td>Maria Perez</td>
-                        <td>04/06/2024</td>
-                        <td>06/06/2025</td>
-                        <td>Perro</td>
-                        <td>
-                            <!-- <a href="u_editarCitaGuarderia.html" class="verde">Editar Citas</a> -->
-                            <a href="#" class="roja">Eliminar cita</a>
-                        </td>
-                    </tr>
-                    <tr class="gris">
-                        <td>Maria Perez</td>
-                        <td>04/06/2024</td>
-                        <td>06/06/2025</td>
-                        <td>Perro</td>
-                        <td>
-                            <!-- <a href="u_editarCitaGuarderia.html" class="verde">Editar Citas</a> -->
-                            <a href="#" class="roja">Eliminar cita</a>
-                        </td>
-                    </tr>
-                    <tr class="blanco">
-                        <td>Maria Perez</td>
-                        <td>04/06/2024</td>
-                        <td>06/06/2025</td>
-                        <td>Perro</td>
-                        <td>
-                            <!-- <a href="u_editarCitaGuarderia.html" class="verde">Editar Citas</a> -->
-                            <a href="#" class="roja">Eliminar cita</a>
-                        </td>
-                    </tr>
-                    <tr class="gris">
-                        <td>Maria Perez</td>
-                        <td>04/06/2024</td>
-                        <td>06/06/2025</td>
-                        <td>Perro</td>
-                        <td>
-                            <!-- <a href="u_editarCitaGuarderia.html" class="verde">Editar Citas</a> -->
-                            <a href="#" class="roja">Eliminar cita</a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="agen">
-            <a href="agendarCita.html">Nueva cita</a>
-        </div>
-    </main>
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" id="apellido" placeholder="apellido" name="apellido" class="form-input" required><br>
 
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Correo electrónico" class="form-input" required><br>
+
+                    <label for="fecha">Fecha:</label><br>
+                    <input type="date" id="fecha" name="fecha" class="form-input" required><br>
+
+            
+               
+
+                
+
+                <div class="form-2">
+
+
+                    <label for="telefono">Teléfono:</label><br>
+                    <input type="number" id="telefono" placeholder="telefono" name="telefono" class="form-input" required><br>
+                
+
+                     <label for="servicio">Mascota:</label><br>
+                    <select id="servicio" name="servicio" class="form-input" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="gato">Gato</option>
+                        <option value="ave">Ave</option>
+                        <option value="roedor">Roedor</option>
+                        <option value="perro">Perro</option>
+                        <option value="perro">Otros</option>
+
+                    </select><br>
+                     <label for="servicio">Servicios:</label><br>
+                    <div>
+                        <input type="checkbox" name="Lyme" value="2000" >Higiene para Mascotas
+                    </div><br>
+
+                    <div>
+                        <input type="checkbox" name="Lyme" value="2000">Chequeo General
+                    </div><br>
+
+                    <div>
+                        <input type="checkbox" name="Lyme" value="2000">Vacunación y Medicación
+                    </div><br>
+
+                </div>
+
+                </div>
+                <div>
+                     <textarea class="mss" placeholder="Si hay alguna informacion relevante háznoslo saber aqui!!" name="mensaje"></textarea><br>
+                </div>
+               
+
+                <div class="boton">
+                    <button required type="submit" class="ancho">Enviar</button>
+    
+                </div>
+            </form>
+        </main>
+    </div>
     <script src="js/header.js"></script>
 </body>
+
 </html>
