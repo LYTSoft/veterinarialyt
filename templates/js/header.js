@@ -55,15 +55,15 @@ subirFoto.addEventListener('change', function() {
 
 // Crear funcion para cuando de click en el boton lo lleve a la pagina correspondiente 
 function agendarCita () {
-    window.location.href = "u_agendarCita.html";
+    window.location.href = "../usuario/u_agendarCita.html";
 }
 
 function irAPerfil() {
-    window.location.href = "u.perfil.html";
+    window.location.href = "../usuario/u.perfil.html";
 }
 
 function agendarCitaAdomicilio () {
-    window.location.href = "u.servicioAdomicialio.html"
+    window.location.href = "../usuario/u.servicioAdomicialio.html"
 }
 
 
@@ -91,6 +91,6 @@ cerrarSesionBtn.addEventListener('click', function() {
 
     if (confirmacion) {
         alert('Has cerrado sesión correctamente.');
-        window.location.href = "index.html"; // Redirigir a la página de inicio de sesión
+        window.location.href = "../index.html"; // Redirigir a la página de inicio de sesión
     }
 });
