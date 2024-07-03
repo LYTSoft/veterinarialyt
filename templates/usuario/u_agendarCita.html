@@ -9,24 +9,24 @@
     <meta name="description" content="Descubre los servicios excepcionales de PetVet, tu clínica veterinaria de confianza. Ofrecemos atención médica integral para tus mascotas, desde consultas generales y vacunas hasta cirugías especializadas. Nuestro equipo dedicado está comprometido con el bienestar animal, proporcionando cuidados personalizados y servicios de calidad. Confía en PetVet para mantener a tus mascotas felices y saludables en cada etapa de sus vidas.">
     <title>Página de los Servicios</title>
     <link rel="icon" href="imagenes/icon.png">
-    <link rel="stylesheet" href="../css/estilosL.css">
+    <link rel="stylesheet" href="css/estilosL.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="../js/javascript-Laura.js"></script>
+    <script src="js/javascript-Laura.js"></script>
 </head>
 
 <body>
     <header>
         <div class="menu">
-            <img src="../recursos/icon/menu.svg" alt="Menú">
+            <img src="recursos/icon/menu.svg" alt="Menú">
         </div>
         <div class="barra-lateral">
             <div>
                 <div class="logo-pagina">
-                    <img src="../imagenes/icon.png" id="logo" alt="Logo PetVet">
+                    <img src="imagenes/icon.png" id="logo" alt="Logo PetVet">
                     <span>Petvet</span>
                 </div>
                 <button class="boton-cita" onclick="agendarCita()">
-                    <img src="../recursos/icon/mas.svg" alt="Agendar cita">
+                    <img src="recursos/icon/mas.svg" alt="Agendar cita">
                     <span>Agendar cita</span>
                 </button>
             </div>
@@ -34,41 +34,41 @@
             <nav class="navegacion">
                 <ul>
                     <li>
-                        <a href="../usuario/u_servicios.html">
-                            <img src="../recursos/icon/inicio.svg" alt="Inicio" class="icon">
+                        <a href="u_servicios.html">
+                            <img src="recursos/icon/inicio.svg" alt="Inicio" class="icon">
                             <span>Inicio</span>
                         </a>
                     </li>
                     <li>
-                        <a href="../usuario/u_citas-agendadas.html">
-                            <img src="../recursos/icon/citasAgendadas.svg" alt="Citas Agendadas" class="icon">
+                        <a href="u_citas-agendadas.html">
+                            <img src="recursos/icon/citasAgendadas.svg" alt="Citas Agendadas" class="icon">
                             <span>Citas Agendadas</span>
                         </a>
                     </li>
 
                       <li>
-                        <a href="../usuario/u_citas-agendadasGuarderia.html">
-                            <img src="../recursos/icon/guaderia-pendiente.svg" alt="citas de guarderia pendienre" class="icon">
+                        <a href="u_citas-agendadasGuarderia.html">
+                            <img src="recursos/icon/guaderia-pendiente.svg" alt="citas de guarderia pendienre" class="icon">
                             <span>Citas Guardería<pan>
                         </a>
                     </li>
                      <li>
-                        <a href="../usuario/u_Servicios-solicitud.html">
-                            <img src="../recursos/icon/servicios-solicitado.svg" alt="Citas Agendadas" class="icon">
+                        <a href="u_Servicios-solicitud.html">
+                            <img src="recursos/icon/servicios-solicitado.svg" alt="Citas Agendadas" class="icon">
                             <span>Servicios Solicitados</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="../usuario/u_guarderia.html">
-                            <img src="../recursos/icon/guarderia.svg" alt="Guardería" class="icon">
+                        <a href="u_guarderia.html">
+                            <img src="recursos/icon/guarderia.svg" alt="Guardería" class="icon">
                             <span>Guardería</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="../usuario/u_adopcion.html">
-                            <img src="../recursos/icon/adopcion.svg" alt="Adopción" class="icon">
+                        <a href="u_adopcion.html">
+                            <img src="recursos/icon/adopcion.svg" alt="Adopción" class="icon">
                             <span>Adopción</span>
                         </a>
                     </li>
@@ -81,7 +81,7 @@
 
            <div class="usuario">
             <a href="#" onclick="abrirModal()">
-                <img src="../imagenes/user-.png" alt="Usuario">
+                <img src="imagenes/user-.png" alt="Usuario">
                 <div class="info-usuario">
                     <div class="nombre-email">
                         <span class="nombre">Maria Lopez</span>
@@ -125,7 +125,7 @@
                   <p class="p2">¡Completa este formulario antes de tu cita para el mejor cuidado de tu mascota! </p>
               </div>
             
-            <form class="formulario">
+            <form class="formulario citaForm">
                 <div class="form-1">
                     <label for="nombre">Nombre:</label><br>
                     <input type="text" id="nombre" placeholder="Nombre" name="nombre" class="form-input" required><br>
@@ -148,11 +148,11 @@
 
 
                     <label for="telefono">Teléfono:</label><br>
-                    <input type="number" id="telefono" placeholder="telefono" name="telefono" class="form-input" required><br>
+                    <input type="tel" id="telefono" placeholder="telefono" name="telefono" class="form-input" required><br>
                 
 
-                     <label for="servicio">Mascota:</label><br>
-                    <select id="servicio" name="servicio" class="form-input" required>
+                     <label for="mascota">Mascota:</label><br>
+                    <select id="mascota" name="mascota" class="form-input" required>
                         <option value="">Seleccione una opción</option>
                         <option value="gato">Gato</option>
                         <option value="ave">Ave</option>
@@ -161,7 +161,12 @@
                         <option value="perro">Otros</option>
 
                     </select><br>
-                     <label for="servicio">Servicios:</label><br>
+                    <label for="tanda">Tanda:</label>
+                    <select  class="form-input" name="tanda" id="tanda">
+                        <option value="Mañana">Mañana</option>
+                        <option value="Tarde">Tarde</option>
+                    </select>
+                     <label for="servicio" id="servicios">Servicios:</label><br>
                     <div>
                         <input type="checkbox" name="Lyme" value="2000" >Higiene para Mascotas
                     </div><br>
@@ -183,13 +188,15 @@
                
 
                 <div class="boton">
-                    <button required type="submit" class="ancho">Enviar</button>
+                    <button  type="submit" class="ancho" >Enviar</button>
+                    <button type="button" class="ancho" onclick="verCitas()">Ver Citas</button>
     
                 </div>
             </form>
         </main>
     </div>
-    <script src="../js/header.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/formulario.js" ></script>
 </body>
 
 </html>
