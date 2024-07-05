@@ -440,13 +440,26 @@ select.form-input {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #5cb85c;
+  background-color: #193A6A;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
+
+.anchoE{
+    display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #193A6A;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
 
 
 

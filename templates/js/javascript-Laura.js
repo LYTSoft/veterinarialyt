@@ -11,7 +11,7 @@ if(user=="admin" && pass=="1212"){
     // alert("Usuario y contraseña introducido correctamnete")
 } else {
     if(user=="maria" && pass=="1212"){
-        window.location="u_servicios.html";
+        window.location.href="../templates/usuario/u_servicios.html";
         // alert("Usuario y contraseña introducido correctamnete")
     } else {
         swal("Error", "Ingresar tus datos correctos", "error")
