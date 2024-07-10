@@ -8,7 +8,7 @@
                 row.innerHTML = `
                     <td>${cita.fecha}</td>
                     <td>${cita.tanda}</td>
-                    <td>${cita.servicio}</td>
+                    <td>${cita.telefono}</td>
                     <td>${cita.mascota}</td>
                     <td>
                         <button onclick="eliminarCita(${cita.id})">Eliminar</button>
